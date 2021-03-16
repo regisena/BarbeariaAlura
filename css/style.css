@@ -1,4 +1,4 @@
-header{
+header {
     background: #bbbbbb;
     padding: 20px 0;
 }
@@ -13,15 +13,14 @@ nav {
      position: absolute;
      right: 0;
      top: 110px;
-
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -85,13 +84,34 @@ footer {
     padding: 40px 0;
 }
 
-.copyright{
+.copyright {
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 20px;
 }
 
+main {
 
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
 
 
 
